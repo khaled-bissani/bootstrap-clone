@@ -269,6 +269,21 @@ img {
     color: #fff;
 }
 
+/* Footer */
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    background-color: #1b252f;
+    padding: 24px 0 24px 0;
+}
+
+.footer-section > p {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
 /* Utilities */
 
 .container {
