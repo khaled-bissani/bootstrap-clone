@@ -115,19 +115,23 @@
                     <div class="blue-line"></div>
                 </div>
             </div>
-            <div class="contact-form contact-container">
-                <input type="text" placeholder="Full name"/>
-                <input type="email" placeholder="Email address"/>
-                <input type="number" placeholder="Phone number"/>
-                <textarea placeholder="Message"></textarea>
+            <div class="contact-form contact-container text-field ">
+                <input type="text" id="name" placeholder="Full name"/>
+                <input type="email" id="email" placeholder="Email address"/>
+                <input type="number" id="number" placeholder="Phone number"/>
+                <textarea id="message" placeholder="Message"></textarea>
             </div>
             <div class="contact-button contact-container">
-                <button class="send-button">Send</button>
+                <button id="send" class="send-button">Send</button>
             </div>
+            <div class="error-box1"></div>
+            <div class="error-box2"></div>
+            <div class="error-box3"></div>
+            <div class="error-box4"></div>
         </div>
         <!-- End Contact me section -->
         <!-- Start Bottom section -->
-        <div class="bottom-section bottom-container">
+        <div class="bottom-section bottom-container mobile">
             <div class="location-section">
                 <p>LOCATION</p>
                 <p>2215 John Daniel Drive
@@ -144,7 +148,7 @@
             </div>
             <div class="freelancer-section">
                 <p>ABOUT FREELANCER</p>
-                <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span>Start Bootstrap</span> .</p>
+                <p class="space">Freelance is a free to use, MIT licensed Bootstrap theme created by <span>Start Bootstrap</span> .</p>
             </div>
         </div>
         <!-- End Bottom section -->
