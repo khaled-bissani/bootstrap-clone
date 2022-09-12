@@ -161,7 +161,7 @@ img {
 
 .about-heading > h1 {
     text-align: center;
-    font-size: 64px;
+    font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
 }
@@ -175,7 +175,6 @@ img {
 
 .text {
     width: 40%;
-    /* padding-left: 1vh; */
 }
 
 .text > p {
@@ -198,6 +197,76 @@ img {
 .download-button:hover {
     background-color: #fff;
     color: #000;
+}
+
+/* Contact */
+.contact-section {
+    width: 100%;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.contact-container {
+    padding-left:55vh;
+    padding-right:55vh;
+    width: 100%;
+}
+
+.contact-heading {
+    margin-bottom: 5vh;
+}
+
+.contact-heading > h1 {
+    text-align: center;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d3e50;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > input {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d3e50;
+    margin-bottom: 5vh;
+    padding: 5vh 0;
+    border: none;
+    border-bottom: 2px solid #ced4da;
+    outline: none;
+}
+
+.contact-form > textarea {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d3e50;
+    margin-bottom: 5vh;
+    padding: 5vh 0 10vh 0;
+    border: none;
+    border-bottom: 2px solid #ced4da;
+    outline: none;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: start;
+}
+
+.send-button {
+    padding: 20px 28px;
+    font-size: 20px;
+    background-color: #6ad4be;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    transition: none;
+    color: #fff;
 }
 
 /* Utilities */
